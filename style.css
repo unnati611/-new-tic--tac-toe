@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body {
+    font-family: 'Varela Round', sans-serif;
+
+    height: 100vh;
+
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    font-weight: 400;
+    position: sticky;
+    border-radius: 4px;
+}
+
+nav h2 {
+    margin: 20px;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+}
+
+.part1 {
+    width: 58%;
+    margin: 50px;
+    padding: 50px;
+    font-size: 120px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.part2 {
+    margin: 100px;
+    padding: 0px;
+    width: 40%;
+
+}
+
+.a {
+    display: flex;
+}
+
+.b {
+    display: flex;
+}
+
+.c {
+    display: flex;
+}
+
+.a1 {
+    width: 200px;
+    height: 150px;
+}
+
+.b1 {
+    width: 200px;
+    height: 150px;
+}
+
+.c1 {
+    width: 200px;
+    height: 150px;
+}
+
+#a1 {
+    border-top: none;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    border-left: none;
+}
+
+#a2 {
+    border-top: none;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+
+}
+
+#a3 {
+    border-top: none;
+    border-right: none;
+    border-bottom: 4px solid black;
+}
+
+#a4 {
+    border-left: none;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+
+#a5 {
+    border-bottom: 4px solid black;
+}
+
+#a6 {
+    border-right: none;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+}
+
+#a7 {
+    border-bottom: none;
+    border-right: 4px solid black;
+
+}
+
+#a8 {
+    border-bottom: none;
+    border-right: 4px solid black;
+}
+
+#a9 {
+    border-bottom: none;
+    border-right: none;
+}
+
+#ans {
+    font-size: 30px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.btn {
+    background-color: rgb(10, 64, 100);
+    border: none;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        height: auto;
+        width: auto;
+    }
+
+    .main {
+        display: block;
+    }
+
+
+}

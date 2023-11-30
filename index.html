@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h2>My TIC-TAC-TOE.Com</h2>
+    </nav>
+    <div class="main">
+      <div class="part1">
+        <div class="a">
+          <div class="a1" id="a1" onclick="box1()"></div>
+          <div class="a1" id="a2" onclick="box2()"></div>
+          <div class="a1" id="a3" onclick="box3()"></div>
+        </div>
+        <div class="b">
+          <div class="b1" id="a4" onclick="box4()"></div>
+          <div class="b1" id="a5" onclick="box5()"></div>
+          <div class="b1" id="a6" onclick="box6()"></div>
+        </div>
+        <div class="c">
+          <div class="c1" id="a7" onclick="box7()"></div>
+          <div class="c1" id="a8" onclick="box8()"></div>
+          <div class="c1" id="a9" onclick="box9()"></div>
+        </div>
+      </div>
+      <div class="part2">
+        <h2>Welcome to Tic-Tac-Toe</h2>
+        <button class="btn" onclick="reset()">Reset</button>
+        <p id="ans"></p>
+        <p id="ans1"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
